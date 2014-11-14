@@ -1,0 +1,57 @@
+[2014-11-14 11:20:39] INFO : Starting server
+[2014-11-14 11:22:39] INFO : Started Request: c24f5c20-4e50-0132-fc60-0c4de9bac70c
+{"action":"ideals_deposit","parameters":{"message_name":"bag-stage-location","correlation_id":"ea7bd000-df4f-11e3-8b68-0800200c9a66","protocol":"http","location":"https://github.com/Data-to-Insight-Center/sead-virtual-archive/raw/d2e71a78ab7fd535223bbf679f567cd1b00a5fb1/SEAD-VA-extensions/services/bagItRestService/src/test/resources/org/seadva/bagit/sample_bag.zip"}}
+[2014-11-14 11:22:39] INFO : Handling upload
+[2014-11-14 11:22:39] ERROR: Unknown Error: undefined method `receive' for #<SimpleAmqpServer::Interaction:0x007febbd1bb4c0>
+[2014-11-14 11:22:39] INFO : Returning: {"pass_through":{},"status":"failure","message":"Unknown failure"}
+[2014-11-14 11:22:39] INFO : Finished Request: c24f5c20-4e50-0132-fc60-0c4de9bac70c
+[2014-11-14 11:24:43] INFO : Stopping server
+[2014-11-14 11:24:57] INFO : Starting server
+[2014-11-14 11:25:57] INFO : Started Request: 383b50e0-4e51-0132-fc61-0c4de9bac70c
+{"action":"ideals_deposit","parameters":{"message_name":"bag-stage-location","correlation_id":"ea7bd000-df4f-11e3-8b68-0800200c9a66","protocol":"http","location":"https://github.com/Data-to-Insight-Center/sead-virtual-archive/raw/d2e71a78ab7fd535223bbf679f567cd1b00a5fb1/SEAD-VA-extensions/services/bagItRestService/src/test/resources/org/seadva/bagit/sample_bag.zip"}}
+[2014-11-14 11:25:57] INFO : Handling upload...
+[2014-11-14 11:25:57] ERROR: Unknown Error: undefined method `receive' for #<SimpleAmqpServer::Interaction:0x007fe5349c9390>
+[2014-11-14 11:25:57] INFO : Returning: {"pass_through":{},"status":"failure","message":"Unknown failure"}
+[2014-11-14 11:25:57] INFO : Finished Request: 383b50e0-4e51-0132-fc61-0c4de9bac70c
+[2014-11-14 11:30:34] INFO : Stopping server
+[2014-11-14 11:30:41] INFO : Starting server
+[2014-11-14 11:30:51] INFO : Started Request: e78c7f40-4e51-0132-fc62-0c4de9bac70c
+{"action":"ideals_deposit","parameters":{"message_name":"bag-stage-location","correlation_id":"ea7bd000-df4f-11e3-8b68-0800200c9a66","protocol":"http","location":"https://github.com/Data-to-Insight-Center/sead-virtual-archive/raw/d2e71a78ab7fd535223bbf679f567cd1b00a5fb1/SEAD-VA-extensions/services/bagItRestService/src/test/resources/org/seadva/bagit/sample_bag.zip"}}
+[2014-11-14 11:30:51] INFO : Handling upload...
+[2014-11-14 11:30:51] INFO : location: https://github.com/Data-to-Insight-Center/sead-virtual-archive/raw/d2e71a78ab7fd535223bbf679f567cd1b00a5fb1/SEAD-VA-extensions/services/bagItRestService/src/test/resources/org/seadva/bagit/sample_bag.zip
+[2014-11-14 11:30:51] INFO : correlation_id: ea7bd000-df4f-11e3-8b68-0800200c9a66
+[2014-11-14 11:30:51] ERROR: Unknown Error: wrong number of arguments (2 for 0..1)
+[2014-11-14 11:30:51] INFO : Returning: {"pass_through":{},"status":"failure","message":"Unknown failure"}
+[2014-11-14 11:30:51] INFO : Finished Request: e78c7f40-4e51-0132-fc62-0c4de9bac70c
+[2014-11-14 11:34:46] INFO : Stopping server
+[2014-11-14 11:34:59] INFO : Starting server
+[2014-11-14 11:35:04] INFO : Started Request: 7e22bd20-4e52-0132-fc63-0c4de9bac70c
+{"action":"ideals_deposit","parameters":{"message_name":"bag-stage-location","correlation_id":"ea7bd000-df4f-11e3-8b68-0800200c9a66","protocol":"http","location":"https://github.com/Data-to-Insight-Center/sead-virtual-archive/raw/d2e71a78ab7fd535223bbf679f567cd1b00a5fb1/SEAD-VA-extensions/services/bagItRestService/src/test/resources/org/seadva/bagit/sample_bag.zip"}}
+[2014-11-14 11:35:04] INFO : Handling upload...
+[2014-11-14 11:35:04] INFO : location: https://github.com/Data-to-Insight-Center/sead-virtual-archive/raw/d2e71a78ab7fd535223bbf679f567cd1b00a5fb1/SEAD-VA-extensions/services/bagItRestService/src/test/resources/org/seadva/bagit/sample_bag.zip
+[2014-11-14 11:35:04] INFO : correlation_id: ea7bd000-df4f-11e3-8b68-0800200c9a66
+[2014-11-14 11:35:04] ERROR: Unknown Error: undefined method `logger' for #<DspaceAmqpServer::Receiver:0x007fb92d1acc80>
+[2014-11-14 11:35:04] INFO : Returning: {"pass_through":{},"status":"failure","message":"Unknown failure"}
+[2014-11-14 11:35:04] INFO : Finished Request: 7e22bd20-4e52-0132-fc63-0c4de9bac70c
+[2014-11-14 11:35:27] INFO : Stopping server
+[2014-11-14 11:38:11] INFO : Starting server
+[2014-11-14 11:38:26] INFO : Started Request: f68c4780-4e52-0132-fc64-0c4de9bac70c
+{"action":"ideals_deposit","parameters":{"message_name":"bag-stage-location","correlation_id":"ea7bd000-df4f-11e3-8b68-0800200c9a66","protocol":"http","location":"https://github.com/Data-to-Insight-Center/sead-virtual-archive/raw/d2e71a78ab7fd535223bbf679f567cd1b00a5fb1/SEAD-VA-extensions/services/bagItRestService/src/test/resources/org/seadva/bagit/sample_bag.zip"}}
+[2014-11-14 11:38:26] INFO : Handling upload...
+[2014-11-14 11:38:26] INFO : location: https://github.com/Data-to-Insight-Center/sead-virtual-archive/raw/d2e71a78ab7fd535223bbf679f567cd1b00a5fb1/SEAD-VA-extensions/services/bagItRestService/src/test/resources/org/seadva/bagit/sample_bag.zip
+[2014-11-14 11:38:26] INFO : correlation_id: ea7bd000-df4f-11e3-8b68-0800200c9a66
+[2014-11-14 11:38:26] ERROR: Unknown Error: undefined method `info' for nil:NilClass
+[2014-11-14 11:38:26] INFO : Returning: {"pass_through":{},"status":"failure","message":"Unknown failure"}
+[2014-11-14 11:38:26] INFO : Finished Request: f68c4780-4e52-0132-fc64-0c4de9bac70c
+[2014-11-14 11:39:35] INFO : Stopping server
+[2014-11-14 11:39:43] INFO : Starting server
+[2014-11-14 11:39:53] INFO : Started Request: 2a369b10-4e53-0132-fc65-0c4de9bac70c
+{"action":"ideals_deposit","parameters":{"message_name":"bag-stage-location","correlation_id":"ea7bd000-df4f-11e3-8b68-0800200c9a66","protocol":"http","location":"https://github.com/Data-to-Insight-Center/sead-virtual-archive/raw/d2e71a78ab7fd535223bbf679f567cd1b00a5fb1/SEAD-VA-extensions/services/bagItRestService/src/test/resources/org/seadva/bagit/sample_bag.zip"}}
+[2014-11-14 11:39:53] INFO : Handling upload...
+[2014-11-14 11:39:53] INFO : location: https://github.com/Data-to-Insight-Center/sead-virtual-archive/raw/d2e71a78ab7fd535223bbf679f567cd1b00a5fb1/SEAD-VA-extensions/services/bagItRestService/src/test/resources/org/seadva/bagit/sample_bag.zip
+[2014-11-14 11:39:53] INFO : correlation_id: ea7bd000-df4f-11e3-8b68-0800200c9a66
+[2014-11-14 11:39:53] INFO : Initializing Receiver...
+[2014-11-14 11:39:53] INFO : Downloading bag to data/ea7bd000-df4f-11e3-8b68-0800200c9a66...
+[2014-11-14 11:39:53] INFO : Unzipping bag to data/ea7bd000-df4f-11e3-8b68-0800200c9a66/download.zip...
+[2014-11-14 11:39:53] INFO : Returning: {"pass_through":{},"status":"success","action":"ideals_deposit","parameters":{"ideals_handle":["2142/5131"]}}
+[2014-11-14 11:39:53] INFO : Finished Request: 2a369b10-4e53-0132-fc65-0c4de9bac70c
