@@ -1,3 +1,27 @@
+# hack to put the run and log dirs at the base of the app
+module SimpleAmqpServer
+  class Base < Object
+
+    BASE_DIR = File.expand_path(File.join(File.dirname(__FILE__), '..', '..'))
+
+    def log_directory
+      File.join(BASE_DIR, 'log')
+    end
+
+    def log_file
+      File.join(BASE_DIR, 'log', "#{config.server_name}.log")
+    end
+
+    def run_directory
+      File.join(BASE_DIR, 'run')
+    end
+
+    def request_directory
+      File.join(BASE_DIR, 'run', "#{config.server_name}_active_requests")
+    end
+  end
+end
+
 module DspaceAmqpServer
   class Base < SimpleAmqpServer::Base
 
