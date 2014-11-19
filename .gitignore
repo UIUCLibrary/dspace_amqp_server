@@ -1,3 +1,6 @@
+/log/
+/run/
+
 .DS_Store
 results.html
 pkg
