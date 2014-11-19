@@ -1,26 +1,13 @@
 # DspaceAmqpServer
 
-TODO: Write a gem description
+This is a messaging system based on Advanced Message Queuing Protocol (AMQP), which is an open standard application layer protocol for message-oriented middleware. It works by setting up an AMQP client that receives JSON objects from providers. Then it downloads and unzips the file and save it as a bag so that it can be passed to the packager.  
 
-## Installation
-
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'dspace_amqp_server'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install dspace_amqp_server
 
 ## Usage
 
-TODO: Write usage instructions here
+Commands:
+"start" to run
+"stop" to stop the process
 
 ## Contributing
 
