@@ -1,8 +1,8 @@
 #!/bin/bash --login
 
-PID_DIR="run"
+PID_DIR="../run"
 PID_FILE="$PID_DIR/dspace_amqp_server.pid"
-LOG_DIR="log"
+LOG_DIR="../log"
 LOG_FILE="$LOG_DIR/dspace_amqp_server_run.log"
 ERROR_FILE="$LOG_DIR/dspace_amqp_server_run.err"
 mkdir -p $PID_DIR
