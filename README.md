@@ -6,7 +6,7 @@ This is a messaging system based on Advanced Message Queuing Protocol (AMQP), wh
 ## Usage
 
 To test how the AMQP server receives message, do the following.
-1. To start the server, run ./dspace_amqp_server start
+1. To start the server, run ./dspace_amqp_server start <br>
 This will build the connection to receive message on port 5672. The connection status of the server and the queue ideals_to_va can be checked on http://localhost:15672/#/queues. 
 2. Run new_task.rb from the "test" folder. This will set up a connection, send a test data to the queue va_to_ideals.
 3. To stop the server, run the command ./dspace_amqp_server stop 
